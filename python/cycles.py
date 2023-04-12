@@ -63,4 +63,45 @@ for i in range(1000001):
     
 print(million)
 
+''''''
 
+million = []
+
+for i in range(1, 1000001):
+    million.append(i)
+
+print(min(million))
+print(max(million))
+print(sum(million))
+
+''''''
+
+dispari = []
+
+for i in range(1, 21, 2):
+    dispari.append(i)
+    
+print(dispari)
+
+
+''''''
+multipli_3 = []
+
+for i in range(3, 31, 3):
+    multipli_3.append(i)
+
+print(multipli_3)
+
+''''''
+cubi = []
+
+for i in range(1, 11):
+    cubo = i**3
+    cubi.append(cubo)
+
+print(cubi)
+
+''''''
+
+cubo_lista = [i**3 for i in range(1, 11)]
+print(cubo_lista)
