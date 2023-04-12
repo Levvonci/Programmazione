@@ -65,3 +65,11 @@ message3 = f"Hello {invitati[2].title()}, u are invited to my party"
 print(message1, message2, message3)
 #scrivere una lista di messaggi a 3 persone per invitarle alla mia festa e stampare a schermo il messaggio
 
+classe = ['marco', 'antonio', 'giuseppe']
+classe.append('gianluca')
+classe_poppata = classe.pop(2)
+del classe[0]
+print(classe_poppata)
+print(classe)
+#un po' di operazioni con le liste
+
