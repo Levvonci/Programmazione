@@ -26,3 +26,41 @@ for animale in animali:
     print(f"The {animale.title()}, is absolutly cute")
 print('This pets are absolutly cute')
 
+print('Qui finisce il secondo esercizio')
+print('Qui inizia il terzo esercizio')
+
+''''''
+
+numbers = list(range(6))
+print(numbers)
+
+''''''
+
+squares = []
+for i in range(11):
+    squares.append(i**2)
+
+print(squares)
+
+'''compressione della lista'''
+
+squares = [i**2 for i in range(11)]
+print(squares)
+
+print('qui inizia esercizio')
+
+'''4.3/4.9 (Page 60)'''
+
+for i in range(1, 21):
+    print(i)
+
+''''''
+
+million = []
+
+for i in range(1000001):
+    million.append(i)
+    
+print(million)
+
+
