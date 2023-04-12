@@ -130,3 +130,21 @@ print(messaggio_damiano)
 del invitati_cena[0]
 del invitati_cena[0]
 print(invitati_cena)
+print(len(invitati_cena))
+
+
+''' Esercizio 3.8/3.10 (Page 45) '''
+
+city = ['tokyo', 'ny', 'rome', 'mosca', 'la']
+print(city)
+print(sorted(city))
+print(city)
+city.reverse()
+print(city)
+city.reverse()
+print(city)
+city.sort()
+print(city)
+city.sort(reverse = True)
+print(city)
+
