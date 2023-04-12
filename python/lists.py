@@ -73,3 +73,60 @@ print(classe_poppata)
 print(classe)
 #un po' di operazioni con le liste
 
+
+''' Esercizio python crash course 3.4/3.7 (Page 41) '''
+
+invitati_cena = ['marco', 'luca', 'andrea']
+
+messaggio_marco = f"Hello, {invitati_cena[0].title()}, u are invited to my dinner"
+messaggio_luca = f"Hello, {invitati_cena[1].title()}, u are invited to my dinner"
+messaggio_andrea = f"Hello, {invitati_cena[2].title()}, u are invited to my dinner"
+
+print(messaggio_marco)
+print(messaggio_luca)
+print(messaggio_andrea)
+
+print('andrea: i cant bro, sry')
+
+del invitati_cena[2]
+
+messaggio_marco_2 = f"{invitati_cena[0].title()} : im still there"
+messaggio_luca_2 = f"{invitati_cena[1].title()} : im still there"
+
+print(messaggio_marco_2)
+print(messaggio_luca_2)
+
+print('guys, ive found a bigger table, we have 3 more spaces')
+
+invitati_cena.insert(0, 'damiano')
+invitati_cena.insert(1, 'franco')
+invitati_cena.append('nicolò')
+
+messaggio_damiano = f"Hello, {invitati_cena[0].title()}, u are invited to my dinner"
+messaggio_franco = f"Hello, {invitati_cena[1].title()}, u are invited to my dinner"
+messaggio_nicolò = f"Hello, {invitati_cena[4].title()}, u are invited to my dinner"
+
+print(messaggio_franco)
+print(messaggio_damiano)
+print(messaggio_nicolò)
+
+print('sry guys there are only 2 spaces for dinner')
+
+no_cena1 = invitati_cena.pop()
+print(f"Sry, {no_cena1}, cya")
+
+no_cena2 = invitati_cena.pop()
+print(f"Sry, {no_cena2}, cya")
+
+no_cena3 = invitati_cena.pop()
+print(f"Sry, {no_cena3}, cya")
+
+message_franco = f"Hello, {invitati_cena[0].title()}, you still invited"
+message_damiano = f"Hello, {invitati_cena[1].title()}, you still invited"
+
+print(messaggio_franco)
+print(messaggio_damiano)
+
+del invitati_cena[0]
+del invitati_cena[0]
+print(invitati_cena)
