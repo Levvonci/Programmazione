@@ -105,3 +105,88 @@ print(cubi)
 
 cubo_lista = [i**3 for i in range(1, 11)]
 print(cubo_lista)
+
+'''slicing'''
+
+player = ['martina', 'mi madre', 'tu padre', 'mi zia', 'franchino']
+print(player[1:4])
+#slicing dalla prima posizione fino alla quarta
+
+player2 = ['franchino', 'martina', 'nicolò']
+print(player2[:2])
+#slicing dalla posizione 0 fino a 2 non includendo la seconda
+
+player3 = ['martina', 'damiano', 'nicolò', 'franco', 'davide']
+print(player3[2:])
+#slicing partendo dalla seconda posizione fino a fine lista 
+
+player4 = ['martina', 'damiano', 'nicolò', 'franco', 'davide']
+print(player4[-3:])
+#slicing partendo da fine lista e stampa gli ultimi 3 personaggi
+
+player5 = ['martina', 'damiano', 'nicolò', 'franco', 'davide']
+
+print('This is the players of my team')
+for player in player5[:3]:
+    print(player.title())
+#for per stampare i pirmi 3 personaggi
+
+'''copiare liste'''
+cibo = ['pizza', 'pasta', 'mandolino']
+cibo2 = cibo[:]
+
+print('il mio cibo preferito è:')
+print(cibo)
+
+print('\nil cibo preferito dal mio amico è:')
+print(cibo2)
+
+'''copiare liste append'''
+
+cibo = ['pizza', 'pasta', 'mandolinio']
+cibo2 = cibo[:]
+
+cibo.append('mela')
+cibo2.append('banana')
+
+print('il mio cibo preferito è:')
+print(cibo)
+
+print(cibo2)
+
+'''4.10/4.12 (Page 69)'''
+
+tavolo = ['bicchiere', 'piatto', 'forchetta', 'coltello']
+
+for utensile in tavolo[:3]:
+    print(utensile)
+#stampa i primi 3 elementi della lista
+
+for utensile in tavolo[1:3]:
+    print(utensile)
+#stampa i 2 elementi centrali della lista
+
+for utensile in tavolo[-3:]:
+    print(utensile)
+#stampa gli ultimi 3 elementi della lista 
+
+''''''
+
+caramelle = ['menta', 'limone', 'banana', 'fragole', 'lamponi']
+caramelle2 = caramelle[:]
+
+caramelle.append('arancia')
+caramelle2.append('anice')
+
+print('my favourite candyes are:')
+for caramella in caramelle[:]:
+    print(caramella)
+
+print('my friend favourite candyes are:')
+for caramella in caramelle2[:]:
+    print(caramella)
+
+''''''
+
+
+
