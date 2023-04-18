@@ -43,4 +43,3 @@ lista3 = []
 for macchina in lista1:
     print('sono dentro il for')
 
-           
