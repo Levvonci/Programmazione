@@ -40,7 +40,7 @@ lista1 = ['audi','tesla','bmw','subaru']
 lista2 = ['marco','luca','gianni','mario']
 lista3 = []
 
-for macchina in lista1 && persona in lista2:
+for macchina in lista1:
     print('sono dentro il for')
 
            
